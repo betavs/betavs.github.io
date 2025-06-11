@@ -22,8 +22,8 @@ proxies:
     port: 17799
     uuid: ed2d7357-4951-43e7-92d3-f880d2481ffe
     network: tcp
-    sni: ""
-    fingerprint: ""
+    sni: ''
+    fingerprint: ''
     ip-version: dual
     udp: true
     alterId: 0

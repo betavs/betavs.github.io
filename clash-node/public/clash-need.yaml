@@ -17,12 +17,12 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: tg频道:@freenodedaily
-    server: 18.183.219.5
+    server: 54.180.148.149
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
-    password: awsps0501
+    password: yijian0503
     tfo: false
   - name: 🇭🇰 香港
     server: 120.233.128.68
@@ -34,7 +34,7 @@ proxies:
     skip-cert-verify: true
   - name: 🇭🇰 香港2
     server: 121.127.231.217
-    port: 41099
+    port: 13231
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
@@ -91,33 +91,28 @@ proxies:
       path: /oooo
       headers:
         Host: baidu.com
-  - name: 🇭🇰 香港7@ripaojiedian
-    server: 103.224.80.111
-    port: 29992
+  - name: 🇭🇰 香港7
+    server: 103.224.80.89
+    port: 38993
     client-fingerprint: chrome
     type: vmess
-    uuid: c3659582-a6e0-45c2-92ec-3b4d8b240e07
+    uuid: 6f8c6f30-c726-4916-8f72-04f020c5c12d
     alterId: 0
     cipher: auto
     tls: false
     tfo: false
     skip-cert-verify: false
   - name: 🇭🇰 香港8
-    server: 9b53711d-sxlj40-szcxa1-dmd8.hkt.east.wctype.com
-    port: 460
+    server: 183.236.51.38
+    port: 33519
     client-fingerprint: chrome
     type: vmess
-    uuid: 2058bdd6-1505-11f0-a035-f23c95b6f51d
-    alterId: 2
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: false
     tfo: false
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: a605477178.m.ctrip.com
   - name: 🇯🇵 日本
     server: cn01.efan8867801.xyz
     port: 8766
@@ -129,10 +124,10 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202506070920094-JZCkrm5A71.download.microsoft.com
+      host: 202506070920094-hBKKcUGalt.download.microsoft.com
   - name: 🇯🇵 日本2
     server: 43.226.17.11
-    port: 40990
+    port: 35947
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
@@ -146,6 +141,22 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
+  - name: 🇯🇵 日本3
+    server: v6.heduian.link
+    port: 30806
+    client-fingerprint: chrome
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: ocbc.com
   - name: 🇸🇬 新加坡
     server: v12.heduian.link
     port: 30812
@@ -181,14 +192,6 @@ proxies:
     password: 85f133142f04dbf6547da33895cfabb3
     sni: www.yrtok.com
     skip-cert-verify: true
-  - name: 🇰🇷 韩国2
-    server: p080.panda001.net
-    port: 36379
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
-    tfo: false
   - name: 🇺🇸 美国2
     server: cn01.efan8867801.xyz
     port: 8774
@@ -200,7 +203,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202506070920094-JZCkrm5A71.download.microsoft.com
+      host: 202506070920094-hBKKcUGalt.download.microsoft.com
   - name: 🇺🇸 美国
     server: v32.heduian.link
     port: 30832
@@ -233,23 +236,6 @@ proxies:
       path: /oooo
       headers:
         Host: v24.heduian.link
-  - name: 🇺🇸 美国4
-    server: tk.hzlt.tkddns.xyz
-    port: 22643
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-    alterId: 2
-    cipher: auto
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: zxjp-c.tkong.cc
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: zxjp-c.tkong.cc
 proxy-groups:
   - name: PROXY
     type: select
@@ -262,18 +248,17 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇭🇰 香港6
-      - 🇭🇰 香港7@ripaojiedian
+      - 🇭🇰 香港7
       - 🇭🇰 香港8
       - 🇯🇵 日本
       - 🇯🇵 日本2
+      - 🇯🇵 日本3
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡2
       - 🇰🇷 韩国
-      - 🇰🇷 韩国2
       - 🇺🇸 美国2
       - 🇺🇸 美国
       - 🇺🇸 美国3
-      - 🇺🇸 美国4
   - name: CLASH
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -285,18 +270,17 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇭🇰 香港6
-      - 🇭🇰 香港7@ripaojiedian
+      - 🇭🇰 香港7
       - 🇭🇰 香港8
       - 🇯🇵 日本
       - 🇯🇵 日本2
+      - 🇯🇵 日本3
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡2
       - 🇰🇷 韩国
-      - 🇰🇷 韩国2
       - 🇺🇸 美国2
       - 🇺🇸 美国
       - 🇺🇸 美国3
-      - 🇺🇸 美国4
     interval: 300
     tolerance: 50
 rules:

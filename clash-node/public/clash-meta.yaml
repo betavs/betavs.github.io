@@ -16,195 +16,155 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-    type: vmess
-    server: v8.heduian.link
-    port: 30808
-    sni: ''
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    cipher: auto
-    network: ws
-    skip-cert-verify: true
-    ws-opts:
-      path: /oooo
-      headers:
-        host: v8.heduian.link
-    alterId: 2
-  - name: 🇺🇸_US_美国_3
+  - name: 🇺🇸_US_美国_1
+    type: ss
+    server: 185.47.254.177
+    port: 20007
+    password: 4QHLWJ3KNY7GIS40
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_2
     type: trojan
     server: 104.21.15.232
     port: 443
-    udp: true
-    sni: ab2c7f0b-bf1b-4eb3-9884-256f4de3d.2030.pp.ua
-    password: 15b24b56-d667-4fa8-b548-f3dc942fb461
     network: ws
+    password: 15b24b56-d667-4fa8-b548-f3dc942fb461
+    sni: ab2c7f0b-bf1b-4eb3-9884-256f4de3d.2030.pp.ua
     ws-opts:
       path: /4p35eUnmGxQ8YJFJxz
       headers:
         host: ab2c7f0b-bf1b-4eb3-9884-256f4de3d.2030.pp.ua
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
-    type: vmess
-    server: v24.heduian.link
-    port: 30824
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /oooo
-      headers:
-        host: v24.heduian.link
-    alterId: 2
-  - name: 🇫🇷_FR_法国
-    type: trojan
-    server: 146.19.106.154
-    port: 443
-    sni: both-cramp-banjo.stark-industries.solutions
-    password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66
-    network: tcp
-    skip-cert-verify: true
-  - name: 🇨🇳_CN_中国
-    type: trojan
-    server: dozo01.flztjc.top
-    port: 8313
-    sni: hk-13-568.flztjc.net
-    password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-    network: tcp
-  - name: 🇩🇪_DE_德国
+    ip-version: dual
+    udp: true
+  - name: 🇩🇪_DE_德国->🇨🇳_CN_中国
     type: ss
-    server: 193.108.119.230
+    server: 45.87.175.166
     port: 8080
-    cipher: rc4-md5
-    password: 14fFPrbezE3HDZzsMOr6
-  - name: 🇨🇳_CN_中国_1
-    type: trojan
-    server: 183.232.235.2
-    port: 8313
-    sni: hk-13-568.flztjc.net
-    password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-    network: tcp
-  - name: 🇨🇳_CN_中国->🇳🇱_NL_荷兰
+    password: cvII85TrW6n0OGyfpHVS1u
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国
     type: trojan
     server: 120.233.44.201
     port: 21102
-    sni: k28.tudou211.com
     password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-    network: tcp
-  - name: 🇨🇳_CN_中国->🇨🇭_CH_瑞士
-    type: vmess
-    server: 15002.kuaiyin02.top
-    port: 15002
-    uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-    cipher: auto
-    network: tcp
-    alterId: 0
-  - name: 🇰🇷_KR_韩国->🇨🇳_CN_中国
+    sni: 120.233.44.201
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+    type: trojan
+    server: e0fc3fd6-sxc9s0-t5cryd-4w8.cu.plebai.net
+    port: 15229
+    password: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
+    sni: e0fc3fd6-sxc9s0-t5cryd-4w8.cu.plebai.net
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯
     type: ss
-    server: p231.panda004.net
-    port: 11389
-    cipher: aes-256-cfb
+    server: 193.108.119.230
+    port: 8080
+    password: 14fFPrbezE3HDZzsMOr6
+    ip-version: dual
+    udp: true
+    cipher: rc4-md5
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    type: trojan
+    server: 68e85139-sxc9s0-t1jkae-18y1l.cu.plebai.net
+    port: 15229
+    password: 96c5f18c-9390-11eb-86a4-f23c913c8d2b
+    sni: 68e85139-sxc9s0-t1jkae-18y1l.cu.plebai.net
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: 🇺🇸_US_美国_3
+    type: ss
+    server: 104.167.197.25
+    port: 57456
+    password: 360e21d21977dc11
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+    type: trojan
+    server: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net
+    port: 15229
+    password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
+    sni: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: 🇰🇷_KR_韩国->🇺🇸_US_美国
+    type: ss
+    server: 125.141.31.72
+    port: 15098
     password: qwerREWQ@@
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇸🇪_SE_瑞典->🇨🇳_CN_中国
+    type: vmess
+    server: 185.146.173.25
+    port: 80
+    uuid: 46181c32-8c82-413a-b836-8375e5e513eb
+    network: ws
+    sni: ''
+    ws-opts:
+      path: /d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560
+      headers:
+        host: google.whatsapp.snapp.torob.basalam.sarzamiiinahang.ir.
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
   - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
     type: vmess
     server: 45.147.201.231
     port: 20055
-    uuid: 81299ce1-02b5-491e-ba01-e9184adf7fa1
-    cipher: auto
+    uuid: 3a9a3f3f-4480-41b1-a21d-57a6fa958f7b
     network: ws
     ws-opts:
       path: /
-    alterId: 0
-  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-    type: vmess
-    server: 45.147.201.231
-    port: 22063
-    uuid: eeafeff6-0adb-4cc7-93a8-15fbc65cddde
-    cipher: auto
-    network: ws
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-    alterId: 0
-  - name: 🇺🇸_US_美国->🇫🇷_FR_法国
-    type: trojan
-    server: 172.67.204.120
-    port: 443
+    ip-version: dual
     udp: true
-    sni: ddcDe.890603.XYz
-    password: 4a3ee276-f50f-46f6-ba4d-13571732ab70
-    network: ws
-    ws-opts:
-      path: /COp52Dbu3dvwvDWUxOqxq
-      headers:
-        host: ddcde.890603.xyz
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-    type: vmess
-    server: v7.heduian.link
-    port: 30807
-    sni: ''
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    cipher: auto
-    network: ws
-    skip-cert-verify: true
-    ws-opts:
-      path: /oooo
-      headers:
-        host: ocbc.com
-    alterId: 2
-  - name: 🇨🇳_CN_中国->🇬🇧_GB_英国
-    type: vmess
-    server: 120.232.153.40
-    port: 40550
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    cipher: auto
-    network: tcp
     alterId: 0
-  - name: 🇰🇷_KR_韩国->🏳️_unKnow_未知
-    type: ss
-    server: 125.141.26.12
-    port: 4857
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
+    cipher: auto
 proxy-groups:
   - name: PROXY
     type: select
     proxies:
       - CLASH
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国
-      - 🇩🇪_DE_德国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
-      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
-      - 🇰🇷_KR_韩国->🇨🇳_CN_中国
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇰🇷_KR_韩国->🏳️_unKnow_未知
+      - 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
+      - 🇸🇪_SE_瑞典->🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
   - name: CLASH
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国
-      - 🇩🇪_DE_德国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国->🇳🇱_NL_荷兰
-      - 🇨🇳_CN_中国->🇨🇭_CH_瑞士
-      - 🇰🇷_KR_韩国->🇨🇳_CN_中国
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇰🇷_KR_韩国->🏳️_unKnow_未知
+      - 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
+      - 🇸🇪_SE_瑞典->🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
     interval: 300
     tolerance: 50
 rules:

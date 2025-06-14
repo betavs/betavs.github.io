@@ -16,14 +16,6 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: tg频道:@freenodedaily
-    server: 35.77.92.51
-    port: 443
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: awsps0501
-    tfo: false
   - name: 🇭🇰 香港
     server: 43.247.135.2
     port: 20332
@@ -318,7 +310,6 @@ proxy-groups:
     type: select
     proxies:
       - CLASH
-      - tg频道:@freenodedaily
       - 🇭🇰 香港
       - 🇭🇰 香港2
       - 🇭🇰 香港2 2
@@ -346,7 +337,6 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - tg频道:@freenodedaily
       - 🇭🇰 香港
       - 🇭🇰 香港2
       - 🇭🇰 香港2 2

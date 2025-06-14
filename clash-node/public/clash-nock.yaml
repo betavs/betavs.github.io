@@ -16,240 +16,297 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: 香港01
+  - name: 🇭🇰 香港
+    server: 43.247.135.2
+    port: 20332
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 8037ce00-c860-4213-b888-be5c7ed6ea48
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 🇭🇰 香港2
+    server: 121.127.231.229
+    port: 15056
+    client-fingerprint: chrome
     type: ss
-    server: gya.tangu.win
-    port: 19630
     cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 香港04
+    password: 1450cecfb93f
+    tfo: false
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: kh36v1.pmxiaonan.xyz
+      path: /simieepvt
+      tls: true
+      mux: true
+      skip-cert-verify: false
+  - name: 🇭🇰 香港3
+    server: 125.94.40.221
+    port: 39001
+    client-fingerprint: chrome
+    type: trojan
+    password: 85f133142f04dbf6547da33895cfabb3
+    sni: www.yrtok.com
+    skip-cert-verify: true
+  - name: 🇭🇰 香港4
+    server: 113.99.140.184
+    port: 39001
+    client-fingerprint: chrome
+    type: trojan
+    password: 85f133142f04dbf6547da33895cfabb3
+    sni: www.yrtok.com
+    skip-cert-verify: true
+  - name: 🇭🇰 香港5
+    server: 120.232.153.40
+    port: 31209
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 🇭🇰 香港6
+    server: v9.heduian.link
+    port: 30809
+    client-fingerprint: chrome
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: baidu.com
+  - name: 🇭🇰 香港7
+    server: 43.247.135.2
+    port: 20332
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 8037ce00-c860-4213-b888-be5c7ed6ea48
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 🇯🇵 日本
+    server: cn01.efan8867801.xyz
+    port: 8766
+    client-fingerprint: chrome
     type: ss
-    server: gya.tangu.win
-    port: 15635
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 美国01
+    cipher: rc4-md5
+    password: efanccyun
+    tfo: false
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 202506131022370-LF8GL1rPM0.download.microsoft.com
+  - name: 🇯🇵 日本2
+    server: 43.226.17.54
+    port: 43887
+    client-fingerprint: chrome
     type: ss
-    server: gya.tangu.win
-    port: 15532
     cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 英国01
+    password: 6448ececa422
+    tfo: false
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: xwkr1v1.8vote.cn
+      path: /oaophukg
+      tls: true
+      mux: true
+      skip-cert-verify: false
+  - name: 🇯🇵 日本3
+    server: 183.236.51.38
+    port: 41302
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡
+    server: v12.heduian.link
+    port: 30812
+    client-fingerprint: chrome
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: ocbc.com
+  - name: 🇸🇬 新加坡2
+    server: 112.29.213.228
+    port: 46019
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /zh-cn
+  - name: 🇸🇬 新加坡3
+    server: 120.232.153.40
+    port: 31209
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 🇰🇷 韩国
+    server: 203.156.253.12
+    port: 39001
+    client-fingerprint: chrome
+    type: trojan
+    password: 85f133142f04dbf6547da33895cfabb3
+    sni: www.yrtok.com
+    skip-cert-verify: true
+  - name: 🇺🇸 美国2
+    server: cn01.efan8867801.xyz
+    port: 8774
+    client-fingerprint: chrome
     type: ss
-    server: gya.tangu.win
-    port: 15935
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 新加坡01
-    type: ss
-    server: gya.tangu.win
-    port: 15636
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 新加坡02
-    type: ss
-    server: gya.tangu.win
-    port: 15637
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 新加坡03
-    type: ss
-    server: gya.tangu.win
-    port: 15627
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 越南01
-    type: ss
-    server: gya.tangu.win
-    port: 15642
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 美国04
-    type: ss
-    server: gya.tangu.win
-    port: 15728
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 柬埔寨01
-    type: ss
-    server: gya.tangu.win
-    port: 19741
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 日本01
-    type: ss
-    server: gya.tangu.win
-    port: 15736
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 香港04-备用
-    type: ss
-    server: qqa813.198139.xyz
-    port: 26642
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 香港05-备用
-    type: ss
-    server: qqa813.198139.xyz
-    port: 26653
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 香港06-备用
-    type: ss
-    server: qqa813.198139.xyz
-    port: 25360
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 台湾04-备用
-    type: ss
-    server: qqa813.198139.xyz
-    port: 11148
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 美国02专线x4
-    type: ss
-    server: zf-ct.bgblwow.org
-    port: 16628
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 台湾01专线x4
-    type: ss
-    server: zf-ct.bgblwow.org
-    port: 14632
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 台湾02专线x4
-    type: ss
-    server: zf-ct.bgblwow.org
-    port: 16621
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 台湾03-专线x4
-    type: ss
-    server: super.sulink.xyz
-    port: 11138
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 台湾05-专线x4
-    type: ss
-    server: super.sulink.xyz
-    port: 11158
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 美国05-专线x4
-    type: ss
-    server: super.sulink.xyz
-    port: 11160
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 香港08-专线x4
-    type: ss
-    server: super.sulink.xyz
-    port: 11159
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 香港02-专线x4
-    type: ss
-    server: super.sulink.xyz
-    port: 12580
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 香港09-专线x4
-    type: ss
-    server: super.sulink.xyz
-    port: 11161
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
-  - name: 美国06-专线x4
-    type: ss
-    server: super.sulink.xyz
-    port: 17161
-    cipher: chacha20-ietf-poly1305
-    password: 0ecdf77e-4735-4269-a295-4c020893488e
-    udp: true
+    cipher: rc4-md5
+    password: efanccyun
+    tfo: false
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 202506131022370-LF8GL1rPM0.download.microsoft.com
+  - name: 🇺🇸 美国
+    server: v32.heduian.link
+    port: 30832
+    client-fingerprint: chrome
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: baidu.com
+  - name: 🇺🇸 美国3
+    server: v24.heduian.link
+    port: 30824
+    client-fingerprint: chrome
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: v24.heduian.link
+  - name: 🇺🇸 美国4
+    server: tk.hzlt.tkddns.xyz
+    port: 22641
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+    alterId: 2
+    cipher: auto
+    tls: true
+    tfo: false
+    skip-cert-verify: false
+    servername: zxjp-a.tkong.cc
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: zxjp-a.tkong.cc
+  - name: 🇦🇺 澳大利亚
+    server: 112.29.213.228
+    port: 46022
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /zh-cn
 proxy-groups:
   - name: PROXY
     type: select
     proxies:
       - CLASH
-      - 香港01
-      - 香港04
-      - 美国01
-      - 英国01
-      - 新加坡01
-      - 新加坡02
-      - 新加坡03
-      - 越南01
-      - 美国04
-      - 柬埔寨01
-      - 日本01
-      - 香港04-备用
-      - 香港05-备用
-      - 香港06-备用
-      - 台湾04-备用
-      - 美国02专线x4
-      - 台湾01专线x4
-      - 台湾02专线x4
-      - 台湾03-专线x4
-      - 台湾05-专线x4
-      - 美国05-专线x4
-      - 香港08-专线x4
-      - 香港02-专线x4
-      - 香港09-专线x4
-      - 美国06-专线x4
+      - 🇭🇰 香港
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇭🇰 香港6
+      - 🇭🇰 香港7
+      - 🇯🇵 日本
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇰🇷 韩国
+      - 🇺🇸 美国2
+      - 🇺🇸 美国
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇦🇺 澳大利亚
   - name: CLASH
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - 香港01
-      - 香港04
-      - 美国01
-      - 英国01
-      - 新加坡01
-      - 新加坡02
-      - 新加坡03
-      - 越南01
-      - 美国04
-      - 柬埔寨01
-      - 日本01
-      - 香港04-备用
-      - 香港05-备用
-      - 香港06-备用
-      - 台湾04-备用
-      - 美国02专线x4
-      - 台湾01专线x4
-      - 台湾02专线x4
-      - 台湾03-专线x4
-      - 台湾05-专线x4
-      - 美国05-专线x4
-      - 香港08-专线x4
-      - 香港02-专线x4
-      - 香港09-专线x4
-      - 美国06-专线x4
+      - 🇭🇰 香港
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇭🇰 香港6
+      - 🇭🇰 香港7
+      - 🇯🇵 日本
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇰🇷 韩国
+      - 🇺🇸 美国2
+      - 🇺🇸 美国
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇦🇺 澳大利亚
     interval: 300
     tolerance: 50
 rules:

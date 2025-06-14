@@ -24,7 +24,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】7
+  - name: 中国 7
     server: 183.238.90.8
     port: 41766
     type: vmess
@@ -32,7 +32,7 @@ proxies:
     alterId: 64
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】30
+  - name: 中国 30
     server: 183.238.90.8
     port: 46920
     type: vmess
@@ -40,7 +40,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】18
+  - name: 中国 18
     server: 120.232.153.123
     port: 52352
     type: vmess
@@ -48,7 +48,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】4
+  - name: 中国 4
     server: 120.198.71.216
     port: 46159
     type: vmess
@@ -56,7 +56,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】26
+  - name: 中国 26
     server: 120.234.102.229
     port: 49174
     type: vmess
@@ -64,7 +64,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 美国【机场推荐：https://socks.news】33
+  - name: 美国 33
     server: 15002.kuaiyin02.top
     port: 15002
     type: vmess
@@ -72,19 +72,19 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】35
+  - name: 中国 35
     server: qh62onjn.slashdevslashnetslashtun.net
     port: 15011
     type: ss
     cipher: aes-256-gcm
     password: N4WB5VAL40S0WSH8
-  - name: 中国【机场推荐：https://socks.news】27
+  - name: 中国 27
     server: 120.233.44.201
     port: 21031
     type: trojan
     password: 2b1ed981-6547-4094-998b-06a3323d6f6c
     sni: k54.tudou211.com
-  - name: 中国【机场推荐：https://socks.news】3
+  - name: 中国 3
     server: 120.232.153.63
     port: 37805
     type: vmess
@@ -92,7 +92,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】22
+  - name: 中国 22
     server: 183.236.51.38
     port: 30052
     type: vmess
@@ -100,19 +100,19 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】25
+  - name: 中国 25
     server: 120.233.44.201
     port: 21179
     type: trojan
     password: 2b1ed981-6547-4094-998b-06a3323d6f6c
     sni: k30.tudou211.com
-  - name: 美国【机场推荐：https://socks.news】2
+  - name: 美国 2
     server: kh.mjt000.com
     port: 443
     type: trojan
     password: 70d38694-8b6e-4328-a3a4-e6f5503e8503
     sni: kh.mjt000.com
-  - name: 中国【机场推荐：https://socks.news】14
+  - name: 中国 14
     server: 120.232.153.41
     port: 41491
     type: vmess
@@ -120,7 +120,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】9
+  - name: 中国 9
     server: 120.198.71.216
     port: 59082
     type: vmess
@@ -128,7 +128,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】11
+  - name: 中国 11
     server: 120.198.71.214
     port: 41175
     type: vmess
@@ -136,7 +136,7 @@ proxies:
     alterId: 64
     cipher: auto
     tls: false
-  - name: 美国【机场推荐：https://socks.news】21
+  - name: 美国 21
     server: 172.67.204.120
     port: 443
     type: trojan
@@ -147,19 +147,19 @@ proxies:
       path: /COp52Dbu3dvwvDWUxOqxq
       headers:
         Host: ddcDe.890603.XYz
-  - name: 日本【机场推荐：https://socks.news】31
+  - name: 日本 31
     server: arxfw2b78fi2q9hzylhn.freesocks.work
     port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
     password: Nk9asglDzHzjktVzTkvhaA
-  - name: 中国【机场推荐：https://socks.news】6
+  - name: 中国 6
     server: gzbgp.098999.xyz
     port: 15923
     type: ss
     cipher: aes-256-gcm
     password: b3f793d1-8054-4651-aec6-b3d6837571de
-  - name: 中国【机场推荐：https://socks.news】17
+  - name: 中国 17
     server: 183.238.90.8
     port: 39076
     type: vmess
@@ -167,13 +167,13 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】10
+  - name: 中国 10
     server: 183.232.235.2
     port: 8313
     type: trojan
     password: 2c605663-b89a-5734-a9d6-97d4743d72cf
     sni: hk-13-568.flztjc.net
-  - name: 中国【机场推荐：https://socks.news】16
+  - name: 中国 16
     server: 183.236.51.38
     port: 49554
     type: vmess
@@ -181,7 +181,7 @@ proxies:
     alterId: 64
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】19
+  - name: 中国 19
     server: 120.232.153.40
     port: 43292
     type: vmess
@@ -189,19 +189,19 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】13
+  - name: 中国 13
     server: dozo01.flztjc.top
     port: 8313
     type: trojan
     password: 2c605663-b89a-5734-a9d6-97d4743d72cf
     sni: hk-13-568.flztjc.net
-  - name: 中国【机场推荐：https://socks.news】32
+  - name: 中国 32
     server: 120.233.44.201
     port: 21102
     type: trojan
     password: 2b1ed981-6547-4094-998b-06a3323d6f6c
     sni: k28.tudou211.com
-  - name: 中国【机场推荐：https://socks.news】8
+  - name: 中国 8
     server: 120.232.153.40
     port: 31209
     type: vmess
@@ -209,7 +209,7 @@ proxies:
     alterId: 64
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】24
+  - name: 中国 24
     server: 120.198.71.219
     port: 49355
     type: vmess
@@ -217,7 +217,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: false
-  - name: 中国【机场推荐：https://socks.news】28
+  - name: 中国 28
     server: 120.198.71.219
     port: 51095
     type: vmess
@@ -231,65 +231,65 @@ proxy-groups:
     proxies:
       - CLASH
       - 节点日期：06-13
-      - 中国【机场推荐：https://socks.news】7
-      - 中国【机场推荐：https://socks.news】30
-      - 中国【机场推荐：https://socks.news】18
-      - 中国【机场推荐：https://socks.news】4
-      - 中国【机场推荐：https://socks.news】26
-      - 美国【机场推荐：https://socks.news】33
-      - 中国【机场推荐：https://socks.news】35
-      - 中国【机场推荐：https://socks.news】27
-      - 中国【机场推荐：https://socks.news】3
-      - 中国【机场推荐：https://socks.news】22
-      - 中国【机场推荐：https://socks.news】25
-      - 美国【机场推荐：https://socks.news】2
-      - 中国【机场推荐：https://socks.news】14
-      - 中国【机场推荐：https://socks.news】9
-      - 中国【机场推荐：https://socks.news】11
-      - 美国【机场推荐：https://socks.news】21
-      - 日本【机场推荐：https://socks.news】31
-      - 中国【机场推荐：https://socks.news】6
-      - 中国【机场推荐：https://socks.news】17
-      - 中国【机场推荐：https://socks.news】10
-      - 中国【机场推荐：https://socks.news】16
-      - 中国【机场推荐：https://socks.news】19
-      - 中国【机场推荐：https://socks.news】13
-      - 中国【机场推荐：https://socks.news】32
-      - 中国【机场推荐：https://socks.news】8
-      - 中国【机场推荐：https://socks.news】24
-      - 中国【机场推荐：https://socks.news】28
+      - 中国 7
+      - 中国 30
+      - 中国 18
+      - 中国 4
+      - 中国 26
+      - 美国 33
+      - 中国 35
+      - 中国 27
+      - 中国 3
+      - 中国 22
+      - 中国 25
+      - 美国 2
+      - 中国 14
+      - 中国 9
+      - 中国 11
+      - 美国 21
+      - 日本 31
+      - 中国 6
+      - 中国 17
+      - 中国 10
+      - 中国 16
+      - 中国 19
+      - 中国 13
+      - 中国 32
+      - 中国 8
+      - 中国 24
+      - 中国 28
   - name: CLASH
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
       - 节点日期：06-13
-      - 中国【机场推荐：https://socks.news】7
-      - 中国【机场推荐：https://socks.news】30
-      - 中国【机场推荐：https://socks.news】18
-      - 中国【机场推荐：https://socks.news】4
-      - 中国【机场推荐：https://socks.news】26
-      - 美国【机场推荐：https://socks.news】33
-      - 中国【机场推荐：https://socks.news】35
-      - 中国【机场推荐：https://socks.news】27
-      - 中国【机场推荐：https://socks.news】3
-      - 中国【机场推荐：https://socks.news】22
-      - 中国【机场推荐：https://socks.news】25
-      - 美国【机场推荐：https://socks.news】2
-      - 中国【机场推荐：https://socks.news】14
-      - 中国【机场推荐：https://socks.news】9
-      - 中国【机场推荐：https://socks.news】11
-      - 美国【机场推荐：https://socks.news】21
-      - 日本【机场推荐：https://socks.news】31
-      - 中国【机场推荐：https://socks.news】6
-      - 中国【机场推荐：https://socks.news】17
-      - 中国【机场推荐：https://socks.news】10
-      - 中国【机场推荐：https://socks.news】16
-      - 中国【机场推荐：https://socks.news】19
-      - 中国【机场推荐：https://socks.news】13
-      - 中国【机场推荐：https://socks.news】32
-      - 中国【机场推荐：https://socks.news】8
-      - 中国【机场推荐：https://socks.news】24
-      - 中国【机场推荐：https://socks.news】28
+      - 中国 7
+      - 中国 30
+      - 中国 18
+      - 中国 4
+      - 中国 26
+      - 美国 33
+      - 中国 35
+      - 中国 27
+      - 中国 3
+      - 中国 22
+      - 中国 25
+      - 美国 2
+      - 中国 14
+      - 中国 9
+      - 中国 11
+      - 美国 21
+      - 日本 31
+      - 中国 6
+      - 中国 17
+      - 中国 10
+      - 中国 16
+      - 中国 19
+      - 中国 13
+      - 中国 32
+      - 中国 8
+      - 中国 24
+      - 中国 28
     interval: 300
     tolerance: 50
 rules:

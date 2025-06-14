@@ -16,760 +16,2847 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: 美国(yudou77.top 玉豆免费节点)
-    server: 183.236.51.38
-    port: 49302
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 2
-    server: v24.heduian.link
-    port: 30824
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /oooo
-    ws-headers:
-      Host: v24.heduian.link
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 3
-    server: s5.db-link01.top
-    port: 2095
-    type: vmess
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /dabai.in172.67.57.150
-    ws-headers:
-      Host: 100-61-120-107.s5.db-link01.top
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 4
-    server: 183.238.90.8
-    port: 41766
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 5
-    server: 45.147.201.231
-    port: 20055
-    type: vmess
-    uuid: 81299ce1-02b5-491e-ba01-e9184adf7fa1
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: 45.147.201.231
-    udp: true
-  - name: 日本(yudou77.top 玉豆免费节点)
-    server: arxfw2b78fi2q9hzylhn.freesocks.work
+  - type: vless
+    name: sg
+    server: 103.44.255.81
     port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: Nk9asglDzHzjktVzTkvhaA
-    udp: true
-  - name: 法国(yudou77.top 玉豆免费节点)
-    server: 146.19.106.154
-    port: 443
-    type: trojan
-    password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
     skip-cert-verify: true
     udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 6
-    server: v9.heduian.link
-    port: 30809
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /oooo
-    ws-headers:
-      Host: baidu.com
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 7
-    server: CVbnHygt.457.Pp.Ua
-    port: 443
-    type: vmess
-    uuid: 82bacaef-f56f-4ac4-9db3-d4754a06d1ef
-    alterId: 0
-    cipher: auto
     tls: true
-    skip-cert-verify: true
     network: ws
-    ws-path: /mBm3EFilg8N6K0sBs
-    ws-headers:
-      Host: cvbnhygt.457.pp.ua
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 8
-    server: dozo01.flztjc.top
-    port: 8313
-    type: trojan
-    password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-    sni: dozo01.flztjc.top
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: JP_1
+    server: 20.243.85.49
+    port: 10443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
     skip-cert-verify: true
     udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 9
-    server: ee53ff51-sux8g0-sxxbmq-1szgv.cm5.p5pv.com
-    port: 17235
-    type: vmess
-    uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 10
-    server: 120.198.71.216
-    port: 59082
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 11
-    server: 120.232.153.63
-    port: 37805
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 12
-    server: 120.198.71.216
-    port: 46159
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 13
-    server: 120.232.153.41
-    port: 41491
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 14
-    server: 120.198.44.126
-    port: 47883
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 15
-    server: tk.hzlt.tkddns.xyz
-    port: 22641
-    type: vmess
-    uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-    alterId: 2
-    cipher: auto
     tls: true
-    skip-cert-verify: true
     network: ws
-    ws-path: /
-    ws-headers:
-      Host: zxjp-a.tkong.cc
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 16
-    server: s4.db-link01.top
-    port: 2086
-    type: vmess
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /dabai.in104.21.116.55
-    ws-headers:
-      Host: 100-40-5-145.s4.db-link01.top
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 17
-    server: 183.236.51.38
-    port: 49554
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: JP_2
+    server: 20.243.85.49
+    port: 10443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
     skip-cert-verify: true
     udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 18
-    server: 183.238.90.8
-    port: 41766
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 19
-    server: s4.db-link01.top
-    port: 80
-    type: vmess
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /dabai.in104.24.246.31
-    ws-headers:
-      Host: 100-39-200-56.s4.db-link01.top
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 20
-    server: 120.198.44.126
-    port: 47883
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 21
-    server: cloudgetservice.mcloudservice.site
-    port: 443
-    type: vmess
-    uuid: ad2bca4d-be9e-4ac2-b2ed-4c81abb4242f
-    alterId: 0
-    cipher: auto
     tls: true
-    skip-cert-verify: true
     network: ws
-    ws-path: /linkws
-    ws-headers:
-      Host: mAxNEtVip-uSA-Vp4.nETKh3.sItE
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 22
-    server: 183.236.51.38
-    port: 30052
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: HK_1
+    server: 8.210.213.159
+    port: 587
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
     skip-cert-verify: true
     udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 23
-    server: 15002.kuaiyin02.top
-    port: 15002
-    type: vmess
-    uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 24
-    server: 183.236.51.38
-    port: 49302
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 25
-    server: cloudgetservice.mcloudservice.site
-    port: 443
-    type: vmess
-    uuid: 96e44a22-4f5c-48f9-99d9-f2c1985dd5b9
-    alterId: 0
-    cipher: auto
     tls: true
-    skip-cert-verify: true
     network: ws
-    ws-path: /linkvkws
-    ws-headers:
-      Host: Usa-Vp-192.blazEcloudMAin.SitE
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 26
-    server: 183.236.51.38
-    port: 49191
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: TW_1
+    server: 210.61.97.241
+    port: 81
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
     skip-cert-verify: true
     udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 27
-    server: 120.234.102.229
-    port: 49174
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 28
-    server: tk.hzlt.tkddns.xyz
-    port: 22643
-    type: vmess
-    uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-    alterId: 2
-    cipher: auto
     tls: true
-    skip-cert-verify: true
     network: ws
-    ws-path: /
-    ws-headers:
-      Host: zxjp-c.tkong.cc
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 29
-    server: s4.cn-db.top
-    port: 80
-    type: vmess
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-    alterId: 0
-    cipher: auto
-    tls: false
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: TW_2
+    server: 210.61.97.241
+    port: 81
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
     skip-cert-verify: true
+    udp: true
+    tls: true
     network: ws
-    ws-path: /dabai.in172.64.1.52
-    ws-headers:
-      Host: 100-242-127-44.s4.cn-db.top
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 30
-    server: s1.cn-db.top
-    port: 8080
-    type: vmess
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-    alterId: 0
-    cipher: auto
-    tls: false
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: TW_3
+    server: 210.61.97.241
+    port: 81
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
     skip-cert-verify: true
+    udp: true
+    tls: true
     network: ws
-    ws-path: /dabai.in172.67.86.139
-    ws-headers:
-      Host: 100-68-98-225.s1.cn-db.top
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 31
-    server: s2.db-link02.top
-    port: 2086
-    type: vmess
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-    alterId: 0
-    cipher: auto
-    tls: false
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: TW_4
+    server: 210.61.97.241
+    port: 81
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
     skip-cert-verify: true
+    udp: true
+    tls: true
     network: ws
-    ws-path: /dabai.in172.67.22.194
-    ws-headers:
-      Host: 100-125-227-19.s2.db-link02.top
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 32
-    server: s5.db-link01.top
-    port: 2052
-    type: vmess
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-    alterId: 0
-    cipher: auto
-    tls: false
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: KR_1
+    server: 220.118.236.239
+    port: 12147
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
     skip-cert-verify: true
+    udp: true
+    tls: true
     network: ws
-    ws-path: /dabai.in104.25.92.130
-    ws-headers:
-      Host: 100-29-115-17.s5.db-link01.top
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 33
-    server: 120.198.71.216
-    port: 46159
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 34
-    server: 183.237.84.53
-    port: 55002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 35
-    server: 183.237.84.53
-    port: 55002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 36
-    server: 183.237.84.53
-    port: 55002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 37
-    server: 183.236.51.38
-    port: 59652
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 韩国(yudou77.top 玉豆免费节点)
-    server: 211.217.31.160
-    port: 12582
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 38
-    server: 120.233.44.201
-    port: 21102
-    type: trojan
-    password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-    skip-cert-verify: true
-    udp: true
-  - name: 韩国(yudou77.top 玉豆免费节点) 2
-    server: 121.150.217.106
-    port: 12541
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 39
-    server: jg647hf446ghvw.gym0boy.com
-    port: 59439
-    type: ss
-    cipher: aes-128-gcm
-    password: cf44a1b7-6806-4412-aac9-5ceb838fb705
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 40
-    server: 15002.kuaiyin02.top
-    port: 15002
-    type: vmess
-    uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 41
-    server: 183.238.90.8
-    port: 46920
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 42
-    server: 45.147.201.231
-    port: 22063
-    type: vmess
-    uuid: eeafeff6-0adb-4cc7-93a8-15fbc65cddde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: 45.147.201.231
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 43
-    server: 160.79.105.133
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 韩国(yudou77.top 玉豆免费节点) 3
-    server: 112.167.124.139
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: KR_2
+    server: 222.113.39.207
     port: 50000
-    type: trojan
-    password: Aimer
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
     skip-cert-verify: true
     udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 44
-    server: s3.cn-db.top
-    port: 2086
-    type: vmess
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /dabai.in104.20.109.71
-    ws-headers:
-      Host: 100-216-147-1.s3.cn-db.top
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 45
-    server: 183.238.90.8
-    port: 46920
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 46
-    server: 120.232.153.63
-    port: 37805
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 47
-    server: 183.237.84.53
-    port: 55002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 48
-    server: xcDFVGBHY6.457.pP.ua
-    port: 443
-    type: vmess
-    uuid: 82bacaef-f56f-4ac4-9db3-d4754a06d1ef
-    alterId: 0
-    cipher: auto
     tls: true
-    skip-cert-verify: true
     network: ws
-    ws-path: /mBm3EFilg8N6K0sBs
-    ws-headers:
-      Host: xcdfvgbhy6.457.pp.ua
-    udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 49
-    server: 120.232.153.41
-    port: 41491
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: KR_3
+    server: 220.118.236.239
+    port: 12147
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
     skip-cert-verify: true
     udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 50
-    server: 183.238.90.8
-    port: 41766
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: KR_4
+    server: 119.197.201.29
+    port: 11481
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
     skip-cert-verify: true
     udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 51
-    server: 183.232.235.2
-    port: 8313
-    type: trojan
-    password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: KR_5
+    server: 220.71.199.115
+    port: 12185
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
     skip-cert-verify: true
     udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 52
-    server: 120.232.153.123
-    port: 52352
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: KR_6
+    server: 59.25.82.79
+    port: 12318
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
     skip-cert-verify: true
     udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 53
-    server: 167.68.5.248
-    port: 2087
-    type: trojan
-    password: Aimer
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: KR_7
+    server: 59.25.82.79
+    port: 12318
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
     skip-cert-verify: true
     udp: true
-  - name: 美国(yudou77.top 玉豆免费节点) 54
-    server: 172.67.204.120
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: KR_8
+    server: 222.102.151.29
+    port: 14401
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: KR_9
+    server: 222.102.151.29
+    port: 14401
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: KR_10
+    server: 220.71.199.115
+    port: 12185
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: KR_11
+    server: 59.25.82.79
+    port: 12318
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: KR_12
+    server: 222.113.39.207
+    port: 50000
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC_1
+    server: 104.17.219.208
     port: 443
-    type: trojan
-    password: 4a3ee276-f50f-46f6-ba4d-13571732ab70
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
     skip-cert-verify: true
     udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_1
+    server: 154.21.83.154
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: US_2
+    server: 154.21.83.154
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC_2
+    server: 104.16.249.174
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC_3
+    server: 104.19.145.14
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: JP_3
+    server: 152.70.101.24
+    port: 16031
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC_4
+    server: 104.17.219.208
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC_5
+    server: 104.18.93.7
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC_6
+    server: 104.19.150.163
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: JP_4
+    server: 152.70.101.24
+    port: 16031
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC_7
+    server: 104.19.145.14
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: JP_5
+    server: 168.138.213.1
+    port: 50003
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: PL_1
+    server: 217.30.10.55
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC_8
+    server: 104.18.147.201
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: JP_6
+    server: 168.138.213.1
+    port: 50003
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: hz.ylks0033.dpdns.org_1
+    server: www.okcupid.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC_9
+    server: 104.17.110.70
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC_10
+    server: 104.17.219.208
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: HK_2
+    server: 154.218.15.250
+    port: 2083
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: HK_3
+    server: 154.218.15.250
+    port: 2083
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC_11
+    server: 104.18.147.201
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_2
+    server: bowen.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: 官方优选_1
+    server: theo.ns.cloudflare.com
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: SG_1
+    server: 27.50.49.251
+    port: 2083
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC-IPV6_1
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_3
+    server: www.whatismyip.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: ZA
+    server: 160.123.255.163
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: SG_2
+    server: 27.50.49.251
+    port: 2083
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: SG_3
+    server: 92.243.74.3
+    port: 8443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC_12
+    server: 104.18.80.243
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CT_1
+    server: 162.159.153.42
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_4
+    server: www.ipget.net
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_5
+    server: benedict.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_6
+    server: www.digitalocean.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: DE
+    server: 150.230.146.170
+    port: 2053
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_7
+    server: moura.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_8
+    server: dylan.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: 官方优选_2
+    server: thaddeus.ns.cloudflare.com
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: 官方优选_3
+    server: damien.ns.cloudflare.com
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: hz.ylks0033.dpdns.org_9
+    server: 162.159.133.85
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_10
+    server: trevor.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_11
+    server: whatismyipaddress.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: 🇭🇰HK
+    server: 104.17.71.31
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC_13
+    server: 104.19.150.28
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC-IPV6_2
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC-IPV6_3
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_3
+    server: 69.84.182.12
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CT_2
+    server: 162.159.153.217
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_4
+    server: 160.79.105.223
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_12
+    server: www.pcmag.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_5
+    server: 108.165.152.202
+    port: 2083
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: 官方优选_4
+    server: sage.ns.cloudflare.com
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: hz.ylks0033.dpdns.org_13
+    server: lewis.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_6
+    server: 135.84.76.143
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_7
+    server: 160.79.105.219
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: 官方优选_5
+    server: arvind.ns.cloudflare.com
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: US_8
+    server: 103.116.7.103
+    port: 2083
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC-IPV6_4
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC-IPV6_5
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: SG_4
+    server: 92.243.74.3
+    port: 8443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: SG_5
+    server: 27.50.48.21
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: hz.ylks0033.dpdns.org_14
+    server: rustam.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_15
+    server: otto.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_16
+    server: decker.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC-IPV6_6
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: SG_6
+    server: 27.50.49.208
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: SG_7
+    server: 27.50.48.21
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: hz.ylks0033.dpdns.org_17
+    server: julio.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_9
+    server: 108.165.152.67
+    port: 2053
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: hz.ylks0033.dpdns.org_18
+    server: wilson.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_19
+    server: time.is
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_10
+    server: 69.84.182.41
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_11
+    server: 160.79.104.6
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_20
+    server: nikon.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_12
+    server: 69.84.182.53
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_21
+    server: craig.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_13
+    server: 103.116.7.103
+    port: 2083
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: US_14
+    server: 209.94.90.87
+    port: 2087
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: hz.ylks0033.dpdns.org_22
+    server: ip.sb
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC-IPV6_7
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_15
+    server: 192.0.54.24
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CT_3
+    server: 162.159.153.217
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: FR_1
+    server: 185.16.110.181
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_23
+    server: iplocation.io
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_24
+    server: ip.gs
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_16
+    server: 108.165.152.67
+    port: 2053
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: 官方优选_6
+    server: ignacio.ns.cloudflare.com
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: 官方优选_7
+    server: lynn.ns.cloudflare.com
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC-IPV6_8
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: RU
+    server: 45.67.215.58
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: 🇺🇸US
+    server: 162.159.129.11
+    port: 2053
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_25
+    server: www.hugedomains.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_17
+    server: 107.174.228.38
+    port: 23234
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: SG_8
+    server: 27.50.49.136
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: KR_13
+    server: 130.162.130.105
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CT_4
+    server: 162.159.153.42
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC-IPV6_9
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_18
+    server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_26
+    server: braden.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: FR_2
+    server: 185.16.110.200
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: HK_4
+    server: 47.57.233.126
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_19
+    server: 209.94.90.87
+    port: 2087
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: 官方优选_8
+    server: kip.ns.cloudflare.com
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: SG_9
+    server: 27.50.49.208
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: hz.ylks0033.dpdns.org_27
+    server: kyree.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CT_5
+    server: 162.159.153.209
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_20
+    server: 108.165.152.202
+    port: 2083
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: US_21
+    server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_28
+    server: toy-people.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_29
+    server: www.ddwhm.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: 官方优选_9
+    server: pranab.ns.cloudflare.com
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: PL_2
+    server: 217.30.10.55
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: hz.ylks0033.dpdns.org_30
+    server: comicabc.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_22
+    server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_23
+    server: time.is
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CT_6
+    server: 162.159.152.69
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_24
+    server: icook.hk
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_31
+    server: cris.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: SG_10
+    server: 27.50.49.136
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC-IPV6_10
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC-IPV6_11
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_32
+    server: www.iakeys.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_33
+    server: uriah.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC-IPV6_12
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_25
+    server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_34
+    server: icook.tw
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC_14
+    server: 104.17.100.185
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: 官方优选_10
+    server: duke.ns.cloudflare.com
+    port: 443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: US_26
+    server: 160.79.104.175
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: JP_7
+    server: 82.163.16.69
+    port: 8080
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: hz.ylks0033.dpdns.org_35
+    server: huxley.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_36
+    server: sullivan.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_37
+    server: abdullah.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_38
+    server: ipinfo.in
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC-IPV6_13
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: CMCC-IPV6_14
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: KR_14
+    server: 131.186.22.39
+    port: 34237
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC_15
+    server: 104.18.147.201
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_39
+    server: dnschecker.org
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_27
+    server: 107.174.228.38
+    port: 23234
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: KR_15
+    server: 131.186.22.39
+    port: 34237
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: CMCC-IPV6_15
+    server: '[2606'
+    port: 4700
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_40
+    server: steamdb.info
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_28
+    server: 192.0.54.134
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: hz.ylks0033.dpdns.org_41
+    server: ashton.ns.cloudflare.com
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: HK_5
+    server: 156.255.90.175
+    port: 8443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: HK_6
+    server: 43.154.34.74
+    port: 1935
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: US_29
+    server: 160.79.104.117
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: US_30
+    server: 107.174.228.38
+    port: 23234
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: HK_7
+    server: 43.154.34.74
+    port: 1935
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: US_31
+    server: 129.213.130.70
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: HK_8
+    server: 8.210.213.159
+    port: 587
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: HK_9
+    server: 141.11.77.248
+    port: 8080
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmx.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmx.aimercc.filegear-sg.me
+  - type: vless
+    name: AU
+    server: 152.67.125.174
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
+  - type: vless
+    name: HK_10
+    server: 156.255.90.175
+    port: 8443
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: HK_11
+    server: 141.11.77.248
+    port: 8080
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: edmz.aimercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        host: edmz.aimercc.filegear-sg.me
+  - type: vless
+    name: hz.ylks0033.dpdns.org_42
+    server: 172.67.79.211
+    port: 443
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    skip-cert-verify: true
+    udp: true
+    tls: true
+    network: ws
+    servername: hz.ylks0033.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: hz.ylks0033.dpdns.org
 proxy-groups:
   - name: PROXY
     type: select
     proxies:
       - CLASH
-      - 美国(yudou77.top 玉豆免费节点)
-      - 美国(yudou77.top 玉豆免费节点) 2
-      - 美国(yudou77.top 玉豆免费节点) 3
-      - 美国(yudou77.top 玉豆免费节点) 4
-      - 美国(yudou77.top 玉豆免费节点) 5
-      - 日本(yudou77.top 玉豆免费节点)
-      - 法国(yudou77.top 玉豆免费节点)
-      - 美国(yudou77.top 玉豆免费节点) 6
-      - 美国(yudou77.top 玉豆免费节点) 7
-      - 美国(yudou77.top 玉豆免费节点) 8
-      - 美国(yudou77.top 玉豆免费节点) 9
-      - 美国(yudou77.top 玉豆免费节点) 10
-      - 美国(yudou77.top 玉豆免费节点) 11
-      - 美国(yudou77.top 玉豆免费节点) 12
-      - 美国(yudou77.top 玉豆免费节点) 13
-      - 美国(yudou77.top 玉豆免费节点) 14
-      - 美国(yudou77.top 玉豆免费节点) 15
-      - 美国(yudou77.top 玉豆免费节点) 16
-      - 美国(yudou77.top 玉豆免费节点) 17
-      - 美国(yudou77.top 玉豆免费节点) 18
-      - 美国(yudou77.top 玉豆免费节点) 19
-      - 美国(yudou77.top 玉豆免费节点) 20
-      - 美国(yudou77.top 玉豆免费节点) 21
-      - 美国(yudou77.top 玉豆免费节点) 22
-      - 美国(yudou77.top 玉豆免费节点) 23
-      - 美国(yudou77.top 玉豆免费节点) 24
-      - 美国(yudou77.top 玉豆免费节点) 25
-      - 美国(yudou77.top 玉豆免费节点) 26
-      - 美国(yudou77.top 玉豆免费节点) 27
-      - 美国(yudou77.top 玉豆免费节点) 28
-      - 美国(yudou77.top 玉豆免费节点) 29
-      - 美国(yudou77.top 玉豆免费节点) 30
-      - 美国(yudou77.top 玉豆免费节点) 31
-      - 美国(yudou77.top 玉豆免费节点) 32
-      - 美国(yudou77.top 玉豆免费节点) 33
-      - 美国(yudou77.top 玉豆免费节点) 34
-      - 美国(yudou77.top 玉豆免费节点) 35
-      - 美国(yudou77.top 玉豆免费节点) 36
-      - 美国(yudou77.top 玉豆免费节点) 37
-      - 韩国(yudou77.top 玉豆免费节点)
-      - 美国(yudou77.top 玉豆免费节点) 38
-      - 韩国(yudou77.top 玉豆免费节点) 2
-      - 美国(yudou77.top 玉豆免费节点) 39
-      - 美国(yudou77.top 玉豆免费节点) 40
-      - 美国(yudou77.top 玉豆免费节点) 41
-      - 美国(yudou77.top 玉豆免费节点) 42
-      - 美国(yudou77.top 玉豆免费节点) 43
-      - 韩国(yudou77.top 玉豆免费节点) 3
-      - 美国(yudou77.top 玉豆免费节点) 44
-      - 美国(yudou77.top 玉豆免费节点) 45
-      - 美国(yudou77.top 玉豆免费节点) 46
-      - 美国(yudou77.top 玉豆免费节点) 47
-      - 美国(yudou77.top 玉豆免费节点) 48
-      - 美国(yudou77.top 玉豆免费节点) 49
-      - 美国(yudou77.top 玉豆免费节点) 50
-      - 美国(yudou77.top 玉豆免费节点) 51
-      - 美国(yudou77.top 玉豆免费节点) 52
-      - 美国(yudou77.top 玉豆免费节点) 53
-      - 美国(yudou77.top 玉豆免费节点) 54
+      - sg
+      - JP_1
+      - JP_2
+      - HK_1
+      - TW_1
+      - TW_2
+      - TW_3
+      - TW_4
+      - KR_1
+      - KR_2
+      - KR_3
+      - KR_4
+      - KR_5
+      - KR_6
+      - KR_7
+      - KR_8
+      - KR_9
+      - KR_10
+      - KR_11
+      - KR_12
+      - CMCC_1
+      - US_1
+      - US_2
+      - CMCC_2
+      - CMCC_3
+      - JP_3
+      - CMCC_4
+      - CMCC_5
+      - CMCC_6
+      - JP_4
+      - CMCC_7
+      - JP_5
+      - PL_1
+      - CMCC_8
+      - JP_6
+      - hz.ylks0033.dpdns.org_1
+      - CMCC_9
+      - CMCC_10
+      - HK_2
+      - HK_3
+      - CMCC_11
+      - hz.ylks0033.dpdns.org_2
+      - 官方优选_1
+      - SG_1
+      - CMCC-IPV6_1
+      - hz.ylks0033.dpdns.org_3
+      - ZA
+      - SG_2
+      - SG_3
+      - CMCC_12
+      - CT_1
+      - hz.ylks0033.dpdns.org_4
+      - hz.ylks0033.dpdns.org_5
+      - hz.ylks0033.dpdns.org_6
+      - DE
+      - hz.ylks0033.dpdns.org_7
+      - hz.ylks0033.dpdns.org_8
+      - 官方优选_2
+      - 官方优选_3
+      - hz.ylks0033.dpdns.org_9
+      - hz.ylks0033.dpdns.org_10
+      - hz.ylks0033.dpdns.org_11
+      - 🇭🇰HK
+      - CMCC_13
+      - CMCC-IPV6_2
+      - CMCC-IPV6_3
+      - US_3
+      - CT_2
+      - US_4
+      - hz.ylks0033.dpdns.org_12
+      - US_5
+      - 官方优选_4
+      - hz.ylks0033.dpdns.org_13
+      - US_6
+      - US_7
+      - 官方优选_5
+      - US_8
+      - CMCC-IPV6_4
+      - CMCC-IPV6_5
+      - SG_4
+      - SG_5
+      - hz.ylks0033.dpdns.org_14
+      - hz.ylks0033.dpdns.org_15
+      - hz.ylks0033.dpdns.org_16
+      - CMCC-IPV6_6
+      - SG_6
+      - SG_7
+      - hz.ylks0033.dpdns.org_17
+      - US_9
+      - hz.ylks0033.dpdns.org_18
+      - hz.ylks0033.dpdns.org_19
+      - US_10
+      - US_11
+      - hz.ylks0033.dpdns.org_20
+      - US_12
+      - hz.ylks0033.dpdns.org_21
+      - US_13
+      - US_14
+      - hz.ylks0033.dpdns.org_22
+      - CMCC-IPV6_7
+      - US_15
+      - CT_3
+      - FR_1
+      - hz.ylks0033.dpdns.org_23
+      - hz.ylks0033.dpdns.org_24
+      - US_16
+      - 官方优选_6
+      - 官方优选_7
+      - CMCC-IPV6_8
+      - RU
+      - 🇺🇸US
+      - hz.ylks0033.dpdns.org_25
+      - US_17
+      - SG_8
+      - KR_13
+      - CT_4
+      - CMCC-IPV6_9
+      - US_18
+      - hz.ylks0033.dpdns.org_26
+      - FR_2
+      - HK_4
+      - US_19
+      - 官方优选_8
+      - SG_9
+      - hz.ylks0033.dpdns.org_27
+      - CT_5
+      - US_20
+      - US_21
+      - hz.ylks0033.dpdns.org_28
+      - hz.ylks0033.dpdns.org_29
+      - 官方优选_9
+      - PL_2
+      - hz.ylks0033.dpdns.org_30
+      - US_22
+      - US_23
+      - CT_6
+      - US_24
+      - hz.ylks0033.dpdns.org_31
+      - SG_10
+      - CMCC-IPV6_10
+      - CMCC-IPV6_11
+      - hz.ylks0033.dpdns.org_32
+      - hz.ylks0033.dpdns.org_33
+      - CMCC-IPV6_12
+      - US_25
+      - hz.ylks0033.dpdns.org_34
+      - CMCC_14
+      - 官方优选_10
+      - US_26
+      - JP_7
+      - hz.ylks0033.dpdns.org_35
+      - hz.ylks0033.dpdns.org_36
+      - hz.ylks0033.dpdns.org_37
+      - hz.ylks0033.dpdns.org_38
+      - CMCC-IPV6_13
+      - CMCC-IPV6_14
+      - KR_14
+      - CMCC_15
+      - hz.ylks0033.dpdns.org_39
+      - US_27
+      - KR_15
+      - CMCC-IPV6_15
+      - hz.ylks0033.dpdns.org_40
+      - US_28
+      - hz.ylks0033.dpdns.org_41
+      - HK_5
+      - HK_6
+      - US_29
+      - US_30
+      - HK_7
+      - US_31
+      - HK_8
+      - HK_9
+      - AU
+      - HK_10
+      - HK_11
+      - hz.ylks0033.dpdns.org_42
   - name: CLASH
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - 美国(yudou77.top 玉豆免费节点)
-      - 美国(yudou77.top 玉豆免费节点) 2
-      - 美国(yudou77.top 玉豆免费节点) 3
-      - 美国(yudou77.top 玉豆免费节点) 4
-      - 美国(yudou77.top 玉豆免费节点) 5
-      - 日本(yudou77.top 玉豆免费节点)
-      - 法国(yudou77.top 玉豆免费节点)
-      - 美国(yudou77.top 玉豆免费节点) 6
-      - 美国(yudou77.top 玉豆免费节点) 7
-      - 美国(yudou77.top 玉豆免费节点) 8
-      - 美国(yudou77.top 玉豆免费节点) 9
-      - 美国(yudou77.top 玉豆免费节点) 10
-      - 美国(yudou77.top 玉豆免费节点) 11
-      - 美国(yudou77.top 玉豆免费节点) 12
-      - 美国(yudou77.top 玉豆免费节点) 13
-      - 美国(yudou77.top 玉豆免费节点) 14
-      - 美国(yudou77.top 玉豆免费节点) 15
-      - 美国(yudou77.top 玉豆免费节点) 16
-      - 美国(yudou77.top 玉豆免费节点) 17
-      - 美国(yudou77.top 玉豆免费节点) 18
-      - 美国(yudou77.top 玉豆免费节点) 19
-      - 美国(yudou77.top 玉豆免费节点) 20
-      - 美国(yudou77.top 玉豆免费节点) 21
-      - 美国(yudou77.top 玉豆免费节点) 22
-      - 美国(yudou77.top 玉豆免费节点) 23
-      - 美国(yudou77.top 玉豆免费节点) 24
-      - 美国(yudou77.top 玉豆免费节点) 25
-      - 美国(yudou77.top 玉豆免费节点) 26
-      - 美国(yudou77.top 玉豆免费节点) 27
-      - 美国(yudou77.top 玉豆免费节点) 28
-      - 美国(yudou77.top 玉豆免费节点) 29
-      - 美国(yudou77.top 玉豆免费节点) 30
-      - 美国(yudou77.top 玉豆免费节点) 31
-      - 美国(yudou77.top 玉豆免费节点) 32
-      - 美国(yudou77.top 玉豆免费节点) 33
-      - 美国(yudou77.top 玉豆免费节点) 34
-      - 美国(yudou77.top 玉豆免费节点) 35
-      - 美国(yudou77.top 玉豆免费节点) 36
-      - 美国(yudou77.top 玉豆免费节点) 37
-      - 韩国(yudou77.top 玉豆免费节点)
-      - 美国(yudou77.top 玉豆免费节点) 38
-      - 韩国(yudou77.top 玉豆免费节点) 2
-      - 美国(yudou77.top 玉豆免费节点) 39
-      - 美国(yudou77.top 玉豆免费节点) 40
-      - 美国(yudou77.top 玉豆免费节点) 41
-      - 美国(yudou77.top 玉豆免费节点) 42
-      - 美国(yudou77.top 玉豆免费节点) 43
-      - 韩国(yudou77.top 玉豆免费节点) 3
-      - 美国(yudou77.top 玉豆免费节点) 44
-      - 美国(yudou77.top 玉豆免费节点) 45
-      - 美国(yudou77.top 玉豆免费节点) 46
-      - 美国(yudou77.top 玉豆免费节点) 47
-      - 美国(yudou77.top 玉豆免费节点) 48
-      - 美国(yudou77.top 玉豆免费节点) 49
-      - 美国(yudou77.top 玉豆免费节点) 50
-      - 美国(yudou77.top 玉豆免费节点) 51
-      - 美国(yudou77.top 玉豆免费节点) 52
-      - 美国(yudou77.top 玉豆免费节点) 53
-      - 美国(yudou77.top 玉豆免费节点) 54
+      - sg
+      - JP_1
+      - JP_2
+      - HK_1
+      - TW_1
+      - TW_2
+      - TW_3
+      - TW_4
+      - KR_1
+      - KR_2
+      - KR_3
+      - KR_4
+      - KR_5
+      - KR_6
+      - KR_7
+      - KR_8
+      - KR_9
+      - KR_10
+      - KR_11
+      - KR_12
+      - CMCC_1
+      - US_1
+      - US_2
+      - CMCC_2
+      - CMCC_3
+      - JP_3
+      - CMCC_4
+      - CMCC_5
+      - CMCC_6
+      - JP_4
+      - CMCC_7
+      - JP_5
+      - PL_1
+      - CMCC_8
+      - JP_6
+      - hz.ylks0033.dpdns.org_1
+      - CMCC_9
+      - CMCC_10
+      - HK_2
+      - HK_3
+      - CMCC_11
+      - hz.ylks0033.dpdns.org_2
+      - 官方优选_1
+      - SG_1
+      - CMCC-IPV6_1
+      - hz.ylks0033.dpdns.org_3
+      - ZA
+      - SG_2
+      - SG_3
+      - CMCC_12
+      - CT_1
+      - hz.ylks0033.dpdns.org_4
+      - hz.ylks0033.dpdns.org_5
+      - hz.ylks0033.dpdns.org_6
+      - DE
+      - hz.ylks0033.dpdns.org_7
+      - hz.ylks0033.dpdns.org_8
+      - 官方优选_2
+      - 官方优选_3
+      - hz.ylks0033.dpdns.org_9
+      - hz.ylks0033.dpdns.org_10
+      - hz.ylks0033.dpdns.org_11
+      - 🇭🇰HK
+      - CMCC_13
+      - CMCC-IPV6_2
+      - CMCC-IPV6_3
+      - US_3
+      - CT_2
+      - US_4
+      - hz.ylks0033.dpdns.org_12
+      - US_5
+      - 官方优选_4
+      - hz.ylks0033.dpdns.org_13
+      - US_6
+      - US_7
+      - 官方优选_5
+      - US_8
+      - CMCC-IPV6_4
+      - CMCC-IPV6_5
+      - SG_4
+      - SG_5
+      - hz.ylks0033.dpdns.org_14
+      - hz.ylks0033.dpdns.org_15
+      - hz.ylks0033.dpdns.org_16
+      - CMCC-IPV6_6
+      - SG_6
+      - SG_7
+      - hz.ylks0033.dpdns.org_17
+      - US_9
+      - hz.ylks0033.dpdns.org_18
+      - hz.ylks0033.dpdns.org_19
+      - US_10
+      - US_11
+      - hz.ylks0033.dpdns.org_20
+      - US_12
+      - hz.ylks0033.dpdns.org_21
+      - US_13
+      - US_14
+      - hz.ylks0033.dpdns.org_22
+      - CMCC-IPV6_7
+      - US_15
+      - CT_3
+      - FR_1
+      - hz.ylks0033.dpdns.org_23
+      - hz.ylks0033.dpdns.org_24
+      - US_16
+      - 官方优选_6
+      - 官方优选_7
+      - CMCC-IPV6_8
+      - RU
+      - 🇺🇸US
+      - hz.ylks0033.dpdns.org_25
+      - US_17
+      - SG_8
+      - KR_13
+      - CT_4
+      - CMCC-IPV6_9
+      - US_18
+      - hz.ylks0033.dpdns.org_26
+      - FR_2
+      - HK_4
+      - US_19
+      - 官方优选_8
+      - SG_9
+      - hz.ylks0033.dpdns.org_27
+      - CT_5
+      - US_20
+      - US_21
+      - hz.ylks0033.dpdns.org_28
+      - hz.ylks0033.dpdns.org_29
+      - 官方优选_9
+      - PL_2
+      - hz.ylks0033.dpdns.org_30
+      - US_22
+      - US_23
+      - CT_6
+      - US_24
+      - hz.ylks0033.dpdns.org_31
+      - SG_10
+      - CMCC-IPV6_10
+      - CMCC-IPV6_11
+      - hz.ylks0033.dpdns.org_32
+      - hz.ylks0033.dpdns.org_33
+      - CMCC-IPV6_12
+      - US_25
+      - hz.ylks0033.dpdns.org_34
+      - CMCC_14
+      - 官方优选_10
+      - US_26
+      - JP_7
+      - hz.ylks0033.dpdns.org_35
+      - hz.ylks0033.dpdns.org_36
+      - hz.ylks0033.dpdns.org_37
+      - hz.ylks0033.dpdns.org_38
+      - CMCC-IPV6_13
+      - CMCC-IPV6_14
+      - KR_14
+      - CMCC_15
+      - hz.ylks0033.dpdns.org_39
+      - US_27
+      - KR_15
+      - CMCC-IPV6_15
+      - hz.ylks0033.dpdns.org_40
+      - US_28
+      - hz.ylks0033.dpdns.org_41
+      - HK_5
+      - HK_6
+      - US_29
+      - US_30
+      - HK_7
+      - US_31
+      - HK_8
+      - HK_9
+      - AU
+      - HK_10
+      - HK_11
+      - hz.ylks0033.dpdns.org_42
     interval: 300
     tolerance: 50
 rules:

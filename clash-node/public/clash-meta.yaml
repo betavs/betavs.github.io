@@ -16,153 +16,174 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  - name: 🇺🇸_US_美国
+    type: trojan
+    server: 104.21.14.54
+    port: 443
+    network: ws
+    password: cad5a49f-14e5-4a05-aae9-c5df8fad394f
+    sni: C1Swew.777159.xyz
+    ws-opts:
+      path: /5txgrUN3oqXENw4Z4
+      headers:
+        host: c1swew.777159.xyz
+    ip-version: dual
+    udp: true
+  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国
+    type: trojan
+    server: 120.233.44.201
+    port: 21102
+    password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+    sni: k28.tudou211.com
+    ip-version: dual
+    udp: true
+  - name: 🇰🇷_KR_韩国->🇺🇸_US_美国
+    type: ss
+    server: 125.141.26.12
+    port: 4857
+    password: qwerREWQ@@
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇰🇷_KR_韩国_1
+    type: ss
+    server: 210.217.18.70
+    port: 11171
+    password: qwerREWQ@@
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
     type: trojan
     server: 42.240.152.238
     port: 8842
-    sni: brwx.spvpv.com
     password: 1b4c16925f934c57b954a9f0f23dea33
+    sni: brwx.spvpv.com
     skip-cert-verify: true
-  - name: 🇨🇳_CN_中国
+    ip-version: dual
+    udp: true
+  - name: 🇰🇷_KR_韩国_2
     type: ss
-    server: 103.149.182.191
-    port: 8388
-    cipher: chacha20-ietf
-    password: asd123456
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-    type: trojan
-    server: 120.233.44.201
-    port: 21179
-    sni: k30.tudou211.com
-    password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-    network: tcp
+    server: 125.141.31.72
+    port: 15098
+    password: qwerREWQ@@
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+    type: vmess
+    server: v8.heduian.link
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v8.heduian.link
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
   - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
     type: vmess
     server: 45.147.201.231
     port: 20057
     uuid: e9f68a21-1a1d-42db-9e11-43cb38141923
-    cipher: auto
     network: ws
     ws-opts:
       path: /
+    ip-version: dual
+    udp: true
     alterId: 0
-  - name: 🇰🇷_KR_韩国->🇺🇸_US_美国
-    type: ss
-    server: 125.141.26.12
-    port: 4857
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
+    cipher: auto
   - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
     type: vmess
-    server: v25.heduian.link
-    port: 30825
+    server: v32.heduian.link
+    port: 30832
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    cipher: auto
     network: ws
-    ws-opts:
-      path: /oooo
-      headers:
-        host: v25.heduian.link
-    alterId: 2
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
-    type: vmess
-    server: v29.heduian.link
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /oooo
-      headers:
-        host: ocbc.com
-    alterId: 2
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_4
-    type: vmess
-    server: v24.heduian.link
-    port: 30824
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /oooo
-      headers:
-        host: v24.heduian.link
-    alterId: 2
-  - name: 🇰🇷_KR_韩国
-    type: ss
-    server: 125.141.31.72
-    port: 15098
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
-  - name: 🇨🇳_CN_中国_1
-    type: vmess
-    server: 120.26.55.225
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    cipher: auto
-    network: tcp
-    alterId: 0
-  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国
-    type: trojan
-    server: 120.233.44.201
-    port: 21102
-    sni: k28.tudou211.com
-    password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_5
-    type: vmess
-    server: v7.heduian.link
-    port: 30807
     sni: ''
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    cipher: auto
-    network: ws
-    skip-cert-verify: true
     ws-opts:
       path: /oooo
       headers:
-        host: ocbc.com
+        host: baidu.com
+    ip-version: dual
+    udp: true
     alterId: 2
-  - name: 🇰🇷_KR_韩国_1
+    cipher: auto
+  - name: 🇰🇷_KR_韩国_3
+    type: ss
+    server: 221.150.109.89
+    port: 11389
+    password: qwerREWQ@@
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇰🇷_KR_韩国_4
     type: ss
     server: p231.panda004.net
     port: 11389
-    cipher: aes-256-cfb
     password: qwerREWQ@@
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+    type: trojan
+    server: 120.233.44.201
+    port: 21179
+    network: tcp
+    password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+    sni: k30.tudou211.com
+    ip-version: dual
+    udp: true
+  - name: 🇺🇸_US_美国->🇫🇷_FR_法国
+    type: trojan
+    server: 172.67.204.120
+    port: 443
+    network: ws
+    password: 4a3ee276-f50f-46f6-ba4d-13571732ab70
+    sni: ddcDe.890603.XYz
+    ws-opts:
+      path: /COp52Dbu3dvwvDWUxOqxq
+      headers:
+        host: ddcde.890603.xyz
+    ip-version: dual
+    udp: true
 proxy-groups:
   - name: PROXY
     type: select
     proxies:
       - CLASH
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇰🇷_KR_韩国
-      - 🇨🇳_CN_中国_1
+      - 🇺🇸_US_美国
       - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
       - 🇰🇷_KR_韩国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
   - name: CLASH
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇰🇷_KR_韩国
-      - 🇨🇳_CN_中国_1
+      - 🇺🇸_US_美国
       - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
+      - 🇰🇷_KR_韩国->🇺🇸_US_美国
       - 🇰🇷_KR_韩国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
     interval: 300
     tolerance: 50
 rules:

@@ -36,8 +36,6 @@
 
 ![GitHub Stats][githubstats] ![GitHub Top Langs][githubtoplangs]
 
----
-
 [clash-node | A nodejs script that automatically gets the clash subscription address and updates the clash config file.](https://betavs.github.io/clash-node/)
 
 [typing]: https://readme-typing-svg.demolab.com?font=Fira+Code&height=28&vCenter=true&lines=Hi+there+👋;Hello+World+👋

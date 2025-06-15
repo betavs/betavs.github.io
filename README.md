@@ -1,7 +1,7 @@
 ![typing][typing]
 
-![Commits][commits]
-![Last Commit][lastcommit]
+![GitHub Commit Activity][githubcommitactivity]
+![GitHub Last Commit][githublastcommit]
 
 ### About Me 🧑🏻‍💻
 
@@ -42,8 +42,8 @@
 [clash-node - A nodejs script that automatically gets the clash subscription address and updates the clash config file.](https://betavs.github.io/clash-node/)
 
 [typing]: https://readme-typing-svg.demolab.com?font=Fira+Code&height=28&vCenter=true&lines=Hi+there+👋;Hello+World+👋
-[commits]: https://badgen.net/github/commits/betavs/betavs.github.io?icon=github&label=Commits
-[lastcommit]: https://badgen.net/github/last-commit/betavs/betavs.github.io?icon=github&label=Last%20Commit
+[githubcommitactivity]: https://img.shields.io/github/commit-activity/t/betavs/betavs.github.io?logo=github&label=Commits
+[githublastcommit]: https://img.shields.io/github/last-commit/betavs/betavs.github.io?display_timestamp=committer&logo=github&label=Last%20Commit
 [html5]: https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff
 [css3]: https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff
 [less]: https://img.shields.io/badge/Less-1D365D?logo=less&logoColor=fff

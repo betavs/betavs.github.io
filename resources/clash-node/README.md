@@ -8,7 +8,7 @@ description: A nodejs script that automatically gets the clash subscription addr
 
 A nodejs script that automatically gets the clash subscription address and updates the clash config file.
 
-> Updated on Fri, 27 Jun 2025 12:58:18 GMT
+> Updated on Wed, 02 Jul 2025 04:20:30 GMT
 
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/t/betavs/betavs.github.io/docs?logo=github&label=Commits) ![GitHub Last Commit](https://img.shields.io/github/last-commit/betavs/betavs.github.io/docs?logo=github&label=Last%20Commit)
 

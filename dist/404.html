@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="icon" href="/favicon.ico"><script type="text/javascript">;(function () {
+  let timer
+  let title = ''
+
+  const enter = '👋 Welcome back!'
+  const leave = '😢 Come back soon!'
+
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible') {
+      document.title = enter
+
+      timer = setTimeout(() => {
+        document.title = title
+        timer = undefined
+      }, 500)
+    } else {
+      if (timer) {
+        timer = clearTimeout(timer)
+      } else {
+        title = document.title
+      }
+
+      document.title = leave
+    }
+  })
+})()
+</script><title>betavs</title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-BUUkcdli.css" as="style"><link rel="stylesheet" href="/assets/style-BUUkcdli.css">
+    <link rel="modulepreload" href="/assets/app-C_UztM_Y.js"><link rel="modulepreload" href="/assets/404.html-BIdIm2_2.js">
+    <link rel="prefetch" href="/assets/index.html-Uai9wM7e.js" as="script"><link rel="prefetch" href="/assets/index.html-CcGAbF-m.js" as="script"><link rel="prefetch" href="/assets/index.html-irBl14Ql.js" as="script"><link rel="prefetch" href="/assets/my-contributions-sTU1K_bJ.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-625f18fb><main class="page" data-v-625f18fb><div vp-content data-v-625f18fb><h1 data-v-625f18fb>404</h1><blockquote data-v-625f18fb>How did we get here?</blockquote><a class="route-link" href="/" data-v-625f18fb>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-C_UztM_Y.js" defer></script>
+  </body>
+</html>

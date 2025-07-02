@@ -1,0 +1,15 @@
+name: update-docs
+
+on:
+  push:
+    branches: [docs]
+
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify main branch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: update-docs

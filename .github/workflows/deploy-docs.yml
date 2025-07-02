@@ -1,0 +1,57 @@
+name: deploy-docs
+
+on:
+  push:
+    branches:
+      - main
+      - docs
+
+permissions:
+  contents: write
+
+jobs:
+  deploy-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.9.0
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: docs
+          path: deploy-docs
+
+      - name: Build docs
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          cp -r deploy-docs/resources/clash-node/* docs/clash-node 2>/dev/null || true
+          mkdir -p docs/assets/clash-node 2>/dev/null || true
+          mv docs/clash-node/private docs/clash-node/public docs/assets/clash-node 2>/dev/null || true
+          pnpm run build
+          > dist/.nojekyll
+
+      - name: Deploy docs
+        run: |-
+          cd deploy-docs
+          rm -rf dist
+          mv ../dist .
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "chore: deploy docs [skip ci]" || echo "No changes to commit"
+          git push origin docs || echo "No changes to push"

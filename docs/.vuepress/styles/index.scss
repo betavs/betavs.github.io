@@ -1,0 +1,23 @@
+:root {
+  --vp-c-accent: #3399ff;
+  --vp-c-accent-bg: #66b3ff;
+  --vp-c-accent-hover: #99ccff;
+
+  &[data-theme='dark'] {
+    [href$='#gh-light-mode-only'] {
+      display: none;
+    }
+  }
+
+  &[data-theme='light'] {
+    [href$='#gh-dark-mode-only'] {
+      display: none;
+    }
+  }
+
+  .vp-navbar-item > .auto-link.route-link-active {
+    margin-bottom: -2px;
+    color: var(--vp-c-accent);
+    border-bottom: 2px solid var(--vp-c-accent);
+  }
+}

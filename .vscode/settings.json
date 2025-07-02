@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "liveServer.settings.root": "dist/",
+  "cSpell.words": ["betavs", "commitlint", "vuepress"],
+  "cSpell.ignorePaths": ["node_modules", "pnpm-lock.yaml"]
+}

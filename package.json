@@ -1,0 +1,38 @@
+{
+  "name": "betavs-github-io",
+  "description": "betavs GitHub Pages",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "clean-dev": "vuepress dev docs --clean-cache",
+    "update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@eslint/js": "^9.29.0",
+    "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "@vuepress/plugin-register-components": "2.0.0-rc.110",
+    "@vuepress/theme-default": "2.0.0-rc.88",
+    "eslint": "^9.29.0",
+    "eslint-plugin-vue": "^10.2.0",
+    "globals": "^16.2.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.6.1",
+    "sass-embedded": "^1.86.0",
+    "typescript-eslint": "^8.35.0",
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.20"
+  },
+  "lint-staged": {
+    "*.{js,ts,md,mjs,vue,json,yaml}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}

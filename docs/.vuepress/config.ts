@@ -51,6 +51,10 @@ export default defineUserConfig({
 
     editLink: false,
 
+    lastUpdated: false,
+
+    contributors: false,
+
     themePlugins: {
       mediumZoom: false
     }

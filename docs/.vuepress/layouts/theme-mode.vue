@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import VPDarkIcon from '@theme/VPDarkIcon.vue'
-import VPLightIcon from '@theme/VPLightIcon.vue'
-import { useDarkMode } from '@theme/useDarkMode'
-import { useData } from '@theme/useData'
+import { useDarkMode, useData } from '@vuepress/theme-default/client'
+import VPDarkIcon from '@vuepress/theme-default/lib/client/components/VPDarkIcon.vue'
+import VPLightIcon from '@vuepress/theme-default/lib/client/components/VPLightIcon.vue'
 
 const { themeLocale } = useData()
 const isDarkMode = useDarkMode()
@@ -13,7 +12,7 @@ const toggleColorMode = async () => {
     return
   }
 
-  const target = document.querySelector('.vp-toggle-color-mode-button')
+  const target = document.querySelector('.vp-toggle-color-mode-button')!
   const { innerWidth, innerHeight } = window
   const { top, left, width, height } = target.getBoundingClientRect()
 

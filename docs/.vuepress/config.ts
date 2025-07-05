@@ -1,7 +1,6 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { defaultTheme } from '@vuepress/theme-default'
-import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { defineUserConfig } from 'vuepress'
 
@@ -14,14 +13,7 @@ export default defineUserConfig({
 
   public: resolve(__dirname, '../assets'),
 
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    [
-      'script',
-      { type: 'text/javascript' },
-      readFileSync(resolve(__dirname, './scripts/core.ts'), 'utf-8')
-    ]
-  ],
+  head: [],
 
   theme: defaultTheme({
     logo: '/favicon.ico',
@@ -63,9 +55,13 @@ export default defineUserConfig({
   alias: {
     '@theme/VPToggleColorModeButton.vue': resolve(
       __dirname,
-      './layout/theme-mode.vue'
+      './layouts/theme-mode.vue'
     )
   },
+
+  templateDev: resolve(__dirname, './templates/dev.html'),
+
+  templateBuild: resolve(__dirname, './templates/build.html'),
 
   plugins: [
     registerComponentsPlugin({

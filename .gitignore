@@ -1,0 +1,13 @@
+.DS_Store
+
+cache
+dist
+node_modules
+
+/docs/index.md
+
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local

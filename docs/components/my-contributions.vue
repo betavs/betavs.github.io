@@ -26,7 +26,7 @@ const pins = contributions.map((contribution) => {
   const { name, repo } = contribution
 
   const url = `https://github.com/${name}/${repo}/commits?author=betavs`
-  const pin = `https://github-readme-stats.vercel.app/api/pin/?username=${name}&repo=${repo}&show_owner=true&hide_border=true&description_lines_count=2`
+  const pin = `https://github-stats-extended.vercel.app/api/pin/?username=${name}&repo=${repo}&show_owner=true&hide_border=true&description_lines_count=2`
 
   const dark = `${pin}&theme=github_dark&bg_color=1b1b1f`
   const light = `${pin}&theme=default`

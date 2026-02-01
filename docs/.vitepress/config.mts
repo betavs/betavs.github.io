@@ -39,7 +39,7 @@ export default (config: ConfigEnv) => {
       plugins: [
         assets(VITE_ASSETS_PROXY, [
           'https://github-readme-stats-one-bice.vercel.app',
-          'https://github-readme-stats.vercel.app',
+          'https://github-stats-extended.vercel.app',
           'https://raw.githubusercontent.com'
         ])
       ]

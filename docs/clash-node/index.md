@@ -34,6 +34,10 @@ description: Connecting the world, right here, right now.
 | 05  | [clash-node](clash://install-config?url=https://api.betavs.cn/clash/node.yaml) |
 | 06  | [clash-subs](clash://install-config?url=https://api.betavs.cn/clash/subs.yaml) |
 
+```
+https://api.betavs.cn/clash/{service_subscribe_link}
+```
+
 :::
 
 ::: tip Usage
